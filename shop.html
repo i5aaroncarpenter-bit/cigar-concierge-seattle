@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop — Cigar Concierge</title>
+  <link rel="icon" href="https://cigar-concierge-seattle.netlify.app/assets/logo/crest-sm.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+  <section style="padding-bottom:20px">
+    <div class="container section-head">
+      <div class="kicker">The humidor</div>
+      <h2>Shop cigars</h2>
+      <div class="gold-rule"></div>
+      <p>House blends ship in published bundles. Vault pieces are allocated — add them and the desk will price the box.</p>
+    </div>
+    <div class="filters">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="house">House blends</button>
+      <button class="chip" data-filter="vault">The Vault</button>
+    </div>
+    <div class="container grid" data-shop></div>
+  </section>
+  <script src="js/catalog.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
