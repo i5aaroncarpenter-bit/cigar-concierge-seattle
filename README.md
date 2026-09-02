@@ -1,9 +1,19 @@
 # Cigar Concierge — Seattle
 
-Public 21+ cigar boutique demo for [@SeattleCigars](https://x.com/SeattleCigars).
+Private-label Dominican cigars and an allocated vault of Fuente, Davidoff, and Padrón. 21+ boutique desk for [@SeattleCigars](https://x.com/SeattleCigars).
 
-This is a static site (HTML/CSS/JS). Product photography and films are served from the existing Netlify CDN so the catalog stays intact.
+Live: https://cigar-concierge-seattle.vercel.app
 
-- Live Netlify demo: https://cigar-concierge-seattle.netlify.app
-- Orders: clipboard copy + X DM (no live payments)
-- Restricted ship-to: AK, HI, MA, UT
+No live payments. Requests copy to the clipboard and open an X DM. We do not ship to AK, HI, MA, or UT.
+
+## Stack
+
+TanStack Start (React 19 + Vite) with Nitro’s Vercel preset.
+
+## Scripts
+
+```bash
+npm install
+npm run dev      # local
+npm run build    # production
+```
